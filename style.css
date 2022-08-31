@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    width: 20vw;
+    height: 20vh;
+    background: #000;
+    margin: 50px auto;
+    transform: rotate(30deg);
+    color: white;
+}
+.second{
+    width: 20vw;
+    height: 20vh;
+    background: red;
+    margin: 50px auto;
+    transform: skewX(30deg);
+    transform: skewY(20deg); 
+}
+.third{
+    background-color: yellow;
+    width: 20vw;
+    height: 20vh;
+    margin: 50px auto;
+    /* For rotating  from one place we use origin */
+    transform: rotate(30deg);
+    transform-origin: left top;
+}
+.main{
+    background: pink;
+    width: 50vw;
+    height: 50vh;
+    margin: 50px auto;
+}
+.main .fourth{
+    background: red;
+    width: 30vw;
+    height: 40vw;
+    transform: translateX(100px);
+    transform: translateY(100px);;
+}
+.box{
+    background: green;
+    width: 50vw;
+    height: 50vh;
+    margin: 170px auto;
+}
+.box .fifth{
+    background: red;
+    width: 100px;
+    height: 100px;
+    /* Scale can multiply height and widht */
+    transform: scale(2);
+    transform-origin: right bottom;
+}
+/* For import all value we use matrix */
+/*  transform:matrix() */
